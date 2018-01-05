@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+    <style>
+        html {
+            font-size: calc(100vw / 3.75);
+            font-family: sans-serif;
+            padding-left: calc(100vw - 100%);
+        }
+
+        body {
+            margin: 0;
+            background-color: #111;
+        }
+
+        .trans-40-center {
+            position: absolute;
+            left: 50%;
+            top: 40%;
+            transform: translate(-50%, -50%);
+        }
+
+        .error-board {
+            font: .15rem/2 Monoton, cursive;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .error-code {
+            color: red;
+            text-shadow: 0 0 80px red, 0 0 30px #B22222, 0 0 6px #8B0000;
+        }
+
+        .error-content {
+            color: #FFF;
+            text-shadow: 0 0 80px #FFF, 0 0 30px #00F000, 0 0 6px #0000ff;
+        }
+    </style>
+</head>
+<body>
+<div class="error-board trans-40-center">
+    <p class="error-code">404</p>
+    <p class="error-content">:(&emsp;Not Found</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+{
+  "name": "web-build",
+  "version": "1.0.0",
+  "description": "build static pages",
+  "main": "index.js",
+  "dependencies": {
+    "busboy": "^0.2.14",
+    "ejs": "^2.5.7",
+    "koa-bodyparser": "^4.2.0",
+    "koa-mysql": "^1.0.3",
+    "koa-router": "^7.3.0",
+    "koa-session-minimal": "^3.0.4",
+    "koa-static": "^4.0.2",
+    "koa-views": "^6.1.3",
+    "markdown-it": "^8.4.0",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "koa": "^2.4.1"
+  },
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoamIn/web-build.git"
+  },
+  "keywords": [
+    "web",
+    "build"
+  ],
+  "author": "Live",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RoamIn/web-build/issues"
+  },
+  "homepage": "https://github.com/RoamIn/web-build#readme"
+}
